@@ -79,6 +79,8 @@ tr:not(:last-child) {
 td {
     vertical-align: middle;
     padding: 1.5em 0;
+    cursor: pointer;
+
 }
 
 .td__content {
