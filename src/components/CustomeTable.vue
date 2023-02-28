@@ -84,7 +84,7 @@ td {
 .td__content {
     display: flex;
     align-items: center;
-
+    cursor: pointer;
 }
 
 .isActive {
