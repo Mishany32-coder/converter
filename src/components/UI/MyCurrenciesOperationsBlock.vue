@@ -92,11 +92,13 @@ export default {
 
 a {
     color: #4184D2;
+    cursor: pointer;
 }
 
 .currencies__operations__block {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .currencies__operations__img {

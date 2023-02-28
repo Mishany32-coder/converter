@@ -67,6 +67,7 @@ tr {
     display: flex;
     justify-content: space-between;
     color: #747474;
+    cursor: pointer;
 
 }
 
@@ -83,7 +84,7 @@ td {
 .td__content {
     display: flex;
     align-items: center;
-
+    cursor: pointer;
 }
 
 .isActive {
