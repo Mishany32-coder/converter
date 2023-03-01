@@ -9,6 +9,7 @@
         </Header>
         <Navbar
             :class="menuClass"
+            @click="hide"
         />
         <Main/>
         <my-button class="btn__changeMode" @click="changeMode">Change mode</my-button>
@@ -36,6 +37,10 @@ export default {
         };
     },
     methods : {
+        hide(){
+            this.isBurgerActive = !this.isBurgerActive;
+            this.isMenuHidden   = !this.isMenuHidden;
+        },
         changeMode() {
             this.$store.commit('setIsDarkMode', !this.isDarkMode);
         },

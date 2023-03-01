@@ -22,12 +22,23 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 15vh;
+
 }
 
 .header__title > h1 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.7em;
     margin: .25em 0;
+}
+
+@media (min-width: 560px) {
+    .header__title > h1{
+        font-size: 1em;
+    }
+    .header{
+        height: auto;
+    }
 }
 </style>

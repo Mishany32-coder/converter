@@ -1,5 +1,5 @@
 <template>
-    <button class="burger">
+    <button class="burger" >
         <span class="burger__line top__line"></span>
         <span class="burger__line mid__line"></span>
         <span class="burger__line bottom__line"></span>

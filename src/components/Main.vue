@@ -303,7 +303,7 @@ export default {
     color: #4184D2;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-align: center;
     text-decoration: underline;
 }
@@ -333,6 +333,10 @@ export default {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+    }
+    .subtitle{
+        font-size: 1.8em;
+
     }
 }
 

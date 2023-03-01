@@ -1,6 +1,6 @@
 <template>
     <nav class="menu" id="main-menu">
-        <div class="menu__dropdown">
+        <div class="menu__dropdown" >
             <ul id="menu" class="nav__menu">
                 <li><a :class="{'dark':!isDarkMode}" @click="$router.push('/')" class="">Some page1</a></li>
                 <li><a :class="{'dark':!isDarkMode}" @click="$router.push('/second')" class="">Some page2</a></li>
@@ -14,6 +14,9 @@
 <script>
 export default {
     name: 'Navbar',
+    methods:{
+
+    },
     computed:{
         isDarkMode() {
             return this.$store.state.currencies.isDarkMode;
